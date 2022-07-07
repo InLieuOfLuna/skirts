@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "skirts",
+  "version": "${version}",
+  "name": "Skirts",
+  "description": "Spin",
+  "authors": [
+    "Luna"
+  ],
+  "contact": {
+    "website": "https://lunaluna.me",
+    "repo": "<repo>"
+  },
+  "license": "MIT",
+  "icon": "assets/skirts/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.lunaluna.skirts.client.SkirtsClient"
+    ],
+    "main": [
+      "me.lunaluna.skirts.Skirts"
+    ]
+  },
+  "mixins": [
+    "skirts.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.19"
+  }
+}
